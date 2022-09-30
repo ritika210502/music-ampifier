@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(250, 223, 176); */
+    background-color:rgb(65, 64, 64);
+
+}
+
+#logo {
+    width: 25px;
+    margin: 0px 15px;
+}
+
+.container {
+    min-height: 75vh;
+    /* width:100%; */
+    /* background-position: center center; */
+    background-image: url("bg_music.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.bottom {
+    height: 120px;
+    background-color: #d3ebfd;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons img {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+
+
+}
+.songItemContainer{
+    margin:35px 5px;
+}
+
+.songItem {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: rgb(245, 231, 208);
+    color: black;
+    margin: 7px 2px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.songItem img {
+    width: 30px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    border-radius: 34px;
+}
+.songItemPlay{
+    cursor: pointer;
+}
+.icons i{
+    cursor: pointer;
+}
+/* .songlistplay img {
+    width: 23px;
+    justify-content: space-between;
+} */
+
+.timestamp {
+    margin: 0 13px;
+}
+.timestamp img{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;;
+    left:9.5vw;
+    font-size: small;
+    font-weight: bold;
+
+}
+.songInfo img{
+    opacity:0;
+    transition: opacity 0.4s ease-in;
+}
