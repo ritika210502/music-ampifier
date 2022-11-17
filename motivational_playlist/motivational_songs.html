@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Music Amplifier/Motivational songs</title>
+  <link rel="stylesheet" href="/motivational_playlist/motivational_songs.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <img src="music-notes.png" alt="Music Amplifier" id="logo">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="songList">
+      <h4 style="color:grey; margin-top: 10px;">Best of NCS-No Copyright Sounds</h4>
+      <div>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img src="/motivational_playlist/1_cover.jpg" alt="1">
+            <span class="songName" style="font-weight:550;">Aashaayen</span>
+            <span class="songlistplay">
+              <span class="timestamp">04.20
+                <i id="1" class="far songItemPlay fa-play-circle "></i> 
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="/motivational_playlist/2_cover.jpg" alt="2">
+            <span class="songName" style="font-weight:550;">Aarambh he prachand</span>
+            <span class="songlistplay">
+              <span class="timestamp">06.11
+                <i id="2" class="far songItemPlay fa-play-circle "></i> 
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="/motivational_playlist/3_cover.jpg" alt="3">
+            <span  class="songName" style="font-weight:550;">Bhaag mikha bhaag</span>
+            <span class="songlistplay">
+              <span class="timestamp">05.41
+                <i id="3" class="far songItemPlay fa-play-circle "></i> 
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="/motivational_playlist/4_cover.jpg" alt="4">
+            <span class="songName" style="font-weight:550;">Chak de india</span>
+            <span class="songlistplay">
+              <span class="timestamp">03.50
+                <i id="4" class="far songItemPlay fa-play-circle "></i> 
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="/motivational_playlist/5_cover.jpg" alt="5">
+            <span class="songName" style="font-weight:550;">Desh mere</span>
+            <span class="songlistplay">
+              <span class="timestamp">03.07
+                <i id="5" class="far songItemPlay fa-play-circle "></i> 
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="songBanner"></div>
+  </div>
+  <div class="bottom" name="range">
+    <input type="range" id="myProgressBar" min="0" value=0 max="100">
+    <div class="icons">
+      <i class="fas fa-2x fa-step-backward" height="120px;" id="previous"></i>
+      <i class="far fa-2x fa-play-circle" id="masterPlay"></i> 
+      <i class="fas fa-2x fa-step-forward" id="next"></i>
+    </div>
+    <div class="songInfo">
+      <img src="/playing.gif" width="42px" alt="gif" id="gif"><span id="masterSongName">&emsp;Galliyan-Ankit Tiwari</span>
+    </div>
+  </div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="/motivational_playlist/motivational_songs.js"></script>
+  <script src="https://kit.fontawesome.com/1c99df2a99.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

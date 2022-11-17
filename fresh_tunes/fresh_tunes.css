@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(250, 223, 176); */
+    background-color:rgb(65, 64, 64);
+
+}
+.row{
+    width:100%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    min-height: 75vh;
+}
+.col{
+    flex:50%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+#logo {
+    width: 25px;
+    margin: 0px 15px;
+}
+.banner-img{
+    width:100%;
+    margin-top:5rem;
+
+    justify-content: center;
+    text-align: center;
+    background-color:transparent;
+}
+#img-cover{
+    min-width: 20px;
+    max-width:500px;
+    padding-top:5rem;
+    margin: 2px;
+    padding:2px;
+    /* border-radius:200px; */
+}
+
+.container {
+    width:100%;
+    min-height: 85vh;
+    /* min-height: 75vh; */
+    /* width:100%; */
+    /* background-position: center center; */
+    background-image: url('/bg_music.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.bottom {
+    height: 120px;
+    background-color: #cce4f4;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons img {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+
+
+}
+.songItemContainer{
+    margin:35px 5px;
+    justify-content: center;
+    text-align:center;
+}
+.songList{
+    justify-content: center;
+    text-align:center;
+}
+
+.songItem {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    /* background-color: rgba(82, 82, 82, 0.945); */
+    background-color: #85858c8d;
+    
+
+    color:white;
+    margin: 7px 2px;
+    padding: 5px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.songItem img {
+    width: 45px;
+    height: 45px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    border-radius: 50px;
+}
+.songItemPlay{
+    cursor: pointer;
+}
+.icons i{
+    cursor: pointer;
+}
+/* .songlistplay img {
+    width: 23px;
+    justify-content: space-between;
+} */
+
+.timestamp {
+    margin: 0 13px;
+}
+.timestamp img{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;;
+    left:9.5vw;
+    font-size: small;
+    font-weight: bold;
+
+}
+.songInfo img{
+    opacity:0;
+    transition: opacity 0.4s ease-in;
+}

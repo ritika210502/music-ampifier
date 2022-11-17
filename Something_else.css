@@ -1,0 +1,40 @@
+*{
+    margin: 0rem;
+    padding:0px;
+}
+.Something_else {
+    /* width:300px; */
+    background-color: #fff;
+    text-align: center;
+    ;
+}
+.row {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.col {
+    margin: 0px;
+    padding: 0 auto;
+    display: flex;
+
+}
+
+.card {
+    margin: auto;
+    padding: 0px;
+    height: 100px;
+    background-color: rgb(225, 197, 160);
+}
+
+.img-fluid {
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.card-body {
+    color: red;
+}
